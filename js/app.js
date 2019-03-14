@@ -136,5 +136,11 @@ whatDisc[4].innerHTML = '33% OFF any 6 pack Budweiser or Bud Light';
 //div.price = Priceless
 // button.discount = No Discounts. This cutie is worth every penny!
 
+whatBrand[5].innerHTML = 'Any Dog Breeder';
+whatItem[5].innerHTML = "Baby Puggy";
+whatPrice[5].innerHTML = 'Priceless';
+whatDisc[5].innerHTML = 'No Discounts. This cutie is worth every penny!';
+
+
 //Final Boss 
 //Create your own product for the last three sections.
