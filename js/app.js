@@ -55,10 +55,17 @@ axeDiv[0].appendChild(newButton1);
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
 
 var pandaItem = document.getElementsByClassName('item');
-console.log(pandaItem); //panda express is item 0
+console.log(pandaItem); //panda express item is index 0
 pandaItem[0].innerHTML = 'Orange Chicken';
 
 //10. Create a button element with a class of 'discount' and update the content to Free T-shirt and fortune cookie with purchase! Append this button to Panda Express section.
+
+var newButton2 = document.createElement('button');
+newButton2.class = 'discount';
+newButton2.innerHTML = 'Free T-shirt and fortune cookie with purchase!';
+var pandaPrice = document.getElementsByClassName('price');
+console.log(pandaPrice); //panda express price is index 0
+pandaPrice[0].appendChild(newButton2);
 
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
 
