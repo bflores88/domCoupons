@@ -144,3 +144,64 @@ whatDisc[5].innerHTML = 'No Discounts. This cutie is worth every penny!';
 
 //Final Boss 
 //Create your own product for the last three sections.
+
+var whatImg = document.getElementsByTagName('img');
+console.log(whatImg);
+
+
+//block1
+whatImg[10].src = 'https://www.buffalowildwings.com/globalassets/promos/bonelessthursdayhero.png';
+whatBrand[6].innerHTML = 'Buffalo Wild Wings';
+whatItem[6].innerHTML = "Chicken Wings!";
+whatPrice[6].innerHTML = '$8.99';
+whatDisc[6].innerHTML = 'Wing Wednesdays - 50% off wings!!';
+
+//block2
+var whatBlock2 = document.getElementsByClassName('block2 col-sm-4');
+console.log(whatBlock2);
+
+whatImg[11].src = 'https://i.ebayimg.com/images/g/GtgAAOSwxSZbx2P8/s-l300.jpg';
+
+var tgBrand = document.createElement('div');
+tgBrand.className = 'brand';
+tgBrand.innerHTML = 'Tokyo Ghoul';
+whatBlock2[3].appendChild(tgBrand);
+
+var tgItem = document.createElement('div');
+tgItem.className = 'item';
+tgItem.innerHTML = 'Volume 1-14 Boxed Set';
+whatBlock2[3].appendChild(tgItem);
+
+var tgPrice = document.createElement('div');
+tgPrice.className = 'price';
+tgPrice.innerHTML = "$200.00";
+whatBlock2[3].appendChild(tgPrice);
+
+var tgButton = document.createElement('button');
+tgButton.className = 'discount';
+tgButton.innerHTML = 'Free Tokyo Ghoul shirt with purchase!';
+whatBlock2[3].appendChild(tgButton);
+
+//block3
+
+whatImg[12].src = 'https://pbs.twimg.com/media/DBze4HPXoAIcQJt.jpg';
+
+var nanoLeafBrand = document.createElement('div');
+nanoLeafBrand.className = 'brand';
+nanoLeafBrand.innerHTML = 'nanoleaf';
+whatBlock3[3].appendChild(nanoLeafBrand);
+
+var nanoItem = document.createElement('div');
+nanoItem.className = 'item';
+nanoItem.innerHTML = 'nanoleaf tiles';
+whatBlock3[3].appendChild(nanoItem);
+
+var nanoPrice = document.createElement('div');
+nanoPrice.className = 'price';
+nanoPrice.innerHTML = "$554.43";
+whatBlock3[3].appendChild(nanoPrice);
+
+var nanoButton = document.createElement('button');
+nanoButton.className = 'discount';
+nanoButton.innerHTML = '20% off your next purchase';
+whatBlock3[3].appendChild(nanoButton);
