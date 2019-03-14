@@ -46,6 +46,12 @@ item2.appendChild(newDiv1);
 
 //8. Create a button element with the id of 'discount3' and give it a content of 50% OFF Axe body soap!. Append this element to the appropriate div class 'block3.
 
+var newButton1 = document.createElement('button');
+newButton1.id = 'discount3';
+newButton1.innerHTML = '50% OFF Axe body soap!';
+var axeDiv = document.getElementsByClassName('block3 col-sm-4');
+axeDiv[3].appendChild(newButton1);
+
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
 
 //10. Create a button element with a class of 'discount' and update the content to Free T-shirt and fortune cookie with purchase! Append this button to Panda Express section.
