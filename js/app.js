@@ -16,7 +16,13 @@ update1.innerHTML = 'Nabisco';
 
 //3. Target the div element with the id of 'item1' and update the content with Cheeseburger Oreos. 
 
+var update2 = document.getElementById('item1');
+update2.innerHTML = 'Cheeseburger Oreos';
+
 //4. Target the div element with the id of 'price1' and update the content to $8.99.
+
+var update3 = document.getElementById('price1');
+update3.innerHTML = '$8.99';
 
 //5. Target the button element with the id of 'discount1' and update the content to Free fries with purchase!
 
