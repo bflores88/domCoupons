@@ -49,8 +49,9 @@ item2.appendChild(newDiv1);
 var newButton1 = document.createElement('button');
 newButton1.id = 'discount3';
 newButton1.innerHTML = '50% OFF Axe body soap!';
-var axeDiv = document.getElementsByClassName('block3 col-sm-4');
-axeDiv[0].appendChild(newButton1);
+var whatBlock3 = document.getElementsByClassName('block3 col-sm-4');
+console.log(whatBlock3);
+whatBlock3[0].appendChild(newButton1);
 
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
 
@@ -61,21 +62,28 @@ pandaItem[0].innerHTML = 'Orange Chicken';
 //10. Create a button element with a class of 'discount' and update the content to Free T-shirt and fortune cookie with purchase! Append this button to Panda Express section.
 
 var newButton2 = document.createElement('button');
-newButton2.class = 'discount';
+newButton2.className = 'discount';
 newButton2.innerHTML = 'Free T-shirt and fortune cookie with purchase!';
-var pandaPrice = document.getElementsByClassName('price');
-console.log(pandaPrice); //panda express price is index 0
-pandaPrice[0].appendChild(newButton2);
+var whatPrice = document.getElementsByClassName('price');
+console.log(whatPrice); //panda express price is index 0
+whatPrice[0].appendChild(newButton2);
 
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
 
-var uniqloBrand = document.getElementsByClassName('brand');
-console.log(uniqloBrand); //Uniqlo brand is index 1
-uniqloBrand[1].innerHTML = 'Uniqlo';
+var whatBrand = document.getElementsByClassName('brand');
+console.log(whatBrand); //Uniqlo brand is index 1
+whatBrand[1].innerHTML = 'Uniqlo';
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
+whatPrice[1].innerHTML = '10,000';
+
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
+
+var headphoneDiv = document.createElement('div');
+headphoneDiv.className = 'brand';
+headphoneDiv.innerHTML = 'Hifiman Shangri-La';
+whatBlock3[1].appendChild(headphoneDiv);
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
