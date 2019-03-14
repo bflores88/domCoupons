@@ -37,8 +37,12 @@ update5.innerHTML = "Hendrick's Gin";
 var williamDiv = document.getElementById('brand2');
 williamDiv.appendChild(update5);
 
-
 //7. Create a div element with the id of 'price2' and update the content to $34.99. Append this element to the Hendrick's Gin div.
+
+var newDiv1 = document.createElement('div');
+newDiv1.id = 'price2';
+newDiv1.innerHTML = '$34.99';
+item2.appendChild(newDiv1);
 
 //8. Create a button element with the id of 'discount3' and give it a content of 50% OFF Axe body soap!. Append this element to the appropriate div class 'block3.
 
