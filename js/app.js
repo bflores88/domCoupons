@@ -69,6 +69,10 @@ pandaPrice[0].appendChild(newButton2);
 
 //11. Target the div element with the class of 'brand' for the red hoodie section and update the content to Uniqlo.
 
+var uniqloBrand = document.getElementsByClassName('brand');
+console.log(uniqloBrand); //Uniqlo brand is index 1
+uniqloBrand[1].innerHTML = 'Uniqlo';
+
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
