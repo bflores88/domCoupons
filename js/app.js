@@ -54,7 +54,9 @@ axeDiv[0].appendChild(newButton1);
 
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
 
-
+var pandaItem = document.getElementsByClassName('item');
+console.log(pandaItem); //panda express is item 0
+pandaItem[0].innerHTML = 'Orange Chicken';
 
 //10. Create a button element with a class of 'discount' and update the content to Free T-shirt and fortune cookie with purchase! Append this button to Panda Express section.
 
