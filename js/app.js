@@ -55,9 +55,9 @@ whatBlock3[0].appendChild(newButton1);
 
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
 
-var pandaItem = document.getElementsByClassName('item');
-console.log(pandaItem); //panda express item is index 0
-pandaItem[0].innerHTML = 'Orange Chicken';
+var whatItem = document.getElementsByClassName('item');
+console.log(whatItem); //panda express item is index 0
+whatItem[0].innerHTML = 'Orange Chicken';
 
 //10. Create a button element with a class of 'discount' and update the content to Free T-shirt and fortune cookie with purchase! Append this button to Panda Express section.
 
@@ -111,6 +111,13 @@ whatBlock3[1].appendChild(headphoneDisc);
 //div.item =  Unicorn-Head Slippers
 //div.price = $21.99
 // button.discount = Free knee-high tube socks with purchase!
+
+whatBrand[3].innerHTML = 'H&M';
+whatItem[3].innerHTML = 'Unicorn-Head Slippers';
+whatPrice[3].innerHTML = '$21.99';
+var whatDisc = document.getElementsByClassName('discount');
+console.log(whatDisc);
+whatDisc[3].innerHTML = 'Free knee-high tube socks with purchase!';
 
 //18. For the Doritos, change the contents for each element to the following:
 //div.brand = Frito Lay
