@@ -76,7 +76,7 @@ whatBrand[1].innerHTML = 'Uniqlo';
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
-whatPrice[1].innerHTML = '10,000';
+whatPrice[1].innerHTML = '$10,000';
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
@@ -93,6 +93,11 @@ newDiv2.innerHTML = 'Electronstatic Headphones';
 whatBlock3[1].appendChild(newDiv2);
 
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
+
+var headphonePrice = document.createElement('div');
+headphonePrice.className = 'price';
+headphonePrice.innerHTML = '$18,000';
+whatBlock3[1].appendChild(headphonePrice);
 
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
